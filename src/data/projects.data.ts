@@ -31,7 +31,7 @@ export const PROJECTS_DATA: Project[] = [
   {
     id: 'portfolio-website',
     category: 'frontend',
-    year: 2024,
+    year: 2025,
     tags: [
       'React',
       'TypeScript',
@@ -44,7 +44,7 @@ export const PROJECTS_DATA: Project[] = [
   {
     id: 'flow-board-kanban',
     category: 'frontend',
-    year: 2024,
+    year: 2025,
     tags: [
       'React', 
       'Vite', 
@@ -57,7 +57,7 @@ export const PROJECTS_DATA: Project[] = [
   {
     id: 'momentum-time-manager',
     category: 'desktop',
-    year: 2023,
+    year: 2025,
     tags: [
       'Python',
       'PyQt5',
@@ -70,7 +70,7 @@ export const PROJECTS_DATA: Project[] = [
   {
     id: 'qr-code-generator',
     category: 'full-stack',
-    year: 2023,
+    year: 2024,
     tags: [
       'Python',
       'Streamlit',
