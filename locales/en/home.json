@@ -1,0 +1,181 @@
+{
+    "hero": {
+        "title": "AI Developer & Software Engineer",
+        "bio": "I merge expertise in artificial intelligence and web development, from data-driven models all the way to user-friendly web experiences.",
+        "ctaContact": "Get in Touch"
+    },
+    "intro": {
+        "imageAlt": "Profile photo",
+        "imageUrl": "profile-photo.png",
+        "bioLabel": "Bio",
+        "bioText": "I combine the analytical power of artificial intelligence with the agility of web development to build projects that deliver tangible value. The insights I gain from data-driven models are brought to life through fast, modern interfaces users enjoy.",
+        "experienceLabel": "Years of Experience",
+        "experienceYears": "1+",
+        "skillsLabel": "Core Skills",
+        "skillsList": [
+            "Python",
+            "SQL",
+            "Machine Learning",
+            "Deep Learning",
+            "Computer Vision",
+            "Large Language Models (LLMs)",
+            "AI Agents",
+            "React",
+            "TypeScript"
+        ],
+        "projectsLabel": "Completed Projects",
+        "projectsNumber": "5+"
+    },
+    "about": {
+        "title": "About Me",
+        "paragraph1": "For me, artificial intelligence is the craft of revealing the hidden potential inside data. That potential only becomes meaningful when it reaches the end user. This is why I build bridges with web technologies, translating the results of complex models into fast, intuitive, and interactive interfaces everyone can understand.",
+        "paragraph2": "On this journey I reinforced my theoretical knowledge through hands-on, industry-leading programs. Project-based bootcamps like **Turkcell Geleceği Yazanlar** and **İBB Data Science Bootcamp** gave me the chance to prove myself while working with real-world datasets.",
+        "paragraph3": "My guiding philosophy is to combine the strengths of both worlds so that data becomes not only understandable but also actionable. With a passion for continuous learning and tackling new challenges, I aim to bring value to every project."
+    },
+    "skills": {
+        "mainTitle": "Areas of Expertise",
+        "categoryList": [
+            {
+                "icon": "FaBrain",
+                "title": "Artificial Intelligence & Data Science",
+                "items": [
+                    "Large Language Models (LLMs) & AI Agents (LangChain, RAG, ReAct)",
+                    "Deep Learning (TensorFlow, PyTorch, Keras)",
+                    "Machine Learning (Scikit-learn)",
+                    "Natural Language Processing (NLP) & Image Processing (OpenCV)",
+                    "Data Analysis & Processing (Pandas, NumPy)"
+                ]
+            },
+            {
+                "icon": "FaServer",
+                "title": "Backend & Data Management",
+                "items": [
+                    "Python & FastAPI",
+                    "RESTful API Design & Optimization",
+                    "Vector Databases (Pinecone, Chroma, Faiss)",
+                    "Relational Databases (MySQL, PostgreSQL, MS SQL, SQLite)",
+                    "Advanced SQL & Database Architecture"
+                ]
+            },
+            {
+                "icon": "FaCode",
+                "title": "Frontend Development",
+                "items": [
+                    "JavaScript & TypeScript",
+                    "React",
+                    "HTML5 & CSS3",
+                    "Tailwind CSS",
+                    "Modern State Management"
+                ]
+            },
+            {
+                "icon": "FaCloudUploadAlt",
+                "title": "DevOps & CI/CD",
+                "items": [
+                    "Docker & Container Technologies",
+                    "Version Control (Git & GitHub)",
+                    "AI/ML Platforms (Hugging Face Spaces)",
+                    "Fundamental Cloud Concepts"
+                ]
+            },
+            {
+                "icon": "FaVial",
+                "title": "Testing & Quality Assurance",
+                "items": [
+                    "Unit Testing Principles",
+                    "Python Testing (Developing with Pytest)",
+                    "Test-Driven Development (TDD) Awareness"
+                ]
+            },
+            {
+                "icon": "FaCogs",
+                "title": "Other Technologies & Principles",
+                "items": [
+                    "SOLID Principles",
+                    "C#",
+                    "Java",
+                    "C"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "mainTitle": "Professional Experience",
+        "steps": [
+            {
+                "date": "June 2025 - September 2025",
+                "title": "AI Intern",
+                "company": "BT10 Information Technologies and Consulting Ltd.",
+                "description": "• Actively participated in the development of an Entity Similarity Engine project using Python and TensorFlow/Keras.\n• Conducted R&D work on AI-based similarity detection using deep learning models such as MLP, Two-Tower, Bi-Encoder, and Facebook DINOv2.\n• Integrated the Faiss library for vector similarity searches, enabling efficient querying of model outputs.\n• Implemented traditional similarity algorithms using Python, R, and Java, and performed performance comparisons with AI-based models.",
+                "imageUrl": "bt10-logo.ico"
+            },
+            {
+                "date": "February 2025 - June 2025",
+                "title": "IT Support Staff (Part-Time)",
+                "company": "Balıkesir University",
+                "description": "• Managed regular maintenance and software update processes to ensure systems in the university's computer laboratories remained stable and up-to-date.\n• Provided technical support for hardware and software issues encountered by academic and administrative staff, developing problem-solving and communication skills.\n• Prepared regular technical reports on operations and system inventory, establishing documentation habits.",
+                "imageUrl": "baun-logo.ico"
+            }
+        ]
+    },
+    "projects": {
+    "mainTitle": "Featured Projects",
+    "seeAllText": "View All Projects",
+    "featured": [
+      {
+        "slug": "aspectify-ai-agent",
+        "imageUrl": "aspectify-cover.png",
+        "category": "AI Agent & NLP",
+        "title": "Aspectify: Autonomous Sentiment Analysis Agent",
+        "description": "An autonomous AI agent developed with LangChain that can perform Aspect-Based Sentiment Analysis (ABSA) from voice and text inputs.",
+        "tags": ["Python", "FastAPI", "LangChain", "LLM", "Docker"],
+        "sourceUrl": "https://github.com/hanifekaptan/Aspectify",
+        "liveUrl": ""
+      },
+      {
+        "slug": "hair-health-analysis",
+        "imageUrl": "hair-health-cover.png",
+        "category": "Deep Learning & Image Processing",
+        "title": "Hair Health and Type Analysis Platform",
+        "description": "A RESTful API that analyzes hair type, health issues, and segmentation using image processing and deep learning models.",
+        "tags": ["Python", "TensorFlow", "Keras", "FastAPI"],
+        "sourceUrl": "https://github.com/hanifekaptan/Hair-Health-Analysis",
+        "liveUrl": ""
+      },
+      {
+        "slug": "flow-board-kanban",
+        "imageUrl": "flow-board-cover.png",
+        "category": "Frontend Development",
+        "title": "Flow-Board: Drag-and-Drop Kanban Application",
+        "description": "An interactive Kanban board developed with React and Vite that stores data in the browser's local storage.",
+        "tags": ["React", "Vite", "TypeScript"],
+        "sourceUrl": "https://github.com/hanifekaptan/Flow-Board",
+        "liveUrl": "https://hanifekaptan.github.io/Flow-Board/"
+      }
+    ]
+  },
+    "posts": {
+        "mainTitle": "Featured Posts",
+        "selected": [
+            {
+                "slug": "github-conventional-commits",
+                "title": "GitHub Commit Standardization: Conventional Commits",
+                "summary": "No more meaningless commit messages! Learn the Conventional Commits standard that makes your project history readable, easy to track, and professional.",
+                "link": "/posts/github-conventional-commits"
+            },
+            {
+                "slug": "python-ile-whatsapp-mesaji-gondermek",
+                "title": "Sending WhatsApp Messages with Python",
+                "summary": "We explore two different methods of sending WhatsApp messages using Python with Selenium and Green-API, along with their advantages and disadvantages.",
+                "link": "/posts/python-ile-whatsapp-mesaji-gondermek"
+            }
+        ],
+        "readMoreText": "Read More →",
+        "seeAllText": "View All Posts"
+    },
+    "cta": {
+        "title": "Let's Build Great Projects Together",
+        "subtitle": "Have an idea or just want to say hello? Don't hesitate to get in touch with me.",
+        "buttonText": "Get in Touch"
+    }
+}

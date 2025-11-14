@@ -1,0 +1,168 @@
+{
+  "mainTitle": "My Projects",
+  "mainSubtitle": "A showcase of my work, highlighting my skills in artificial intelligence and web development.",
+  "seeAllText": "See All Projects",
+  "noProjectsFound": "No projects found matching your criteria.",
+
+  "aspectify-ai-agent": {
+    "title": "Aspectify: Autonomous Sentiment Analysis Agent",
+    "imageUrl": "aspectify-cover.png",
+    "shortDescription": "An autonomous AI agent developed with LangChain, capable of performing Aspect-Based Sentiment Analysis (ABSA) from voice and text inputs.",
+    "description": "Aspectify goes beyond traditional sentiment analysis by identifying sentiments (positive, negative, neutral) towards specific topics (aspects) within a text or speech. It transcribes audio to text using OpenAI Whisper, then performs in-depth ABSA analysis using Gemini LLM models. It is designed as an autonomous AI agent orchestrated with the LangChain framework and features a tool-based architecture. A foundation for RAG capabilities has been established with the Pinecone vector database.",
+    "technologies": ["Python", "FastAPI", "LangChain", "OpenAI (Whisper)", "Google (Gemini)", "Pinecone", "SQL", "Docker", "Pydantic", "MkDocs"],
+    "features": [
+      "Voice Input Comprehension (OpenAI Whisper Integration)",
+      "Multi-faceted Sentiment Detection (Aspect-Based Sentiment Analysis)",
+      "Autonomous Agent Architecture (LangChain)",
+      "Vector Database Integration (Pinecone)",
+      "Robust Data Validation (Pydantic)",
+      "Comprehensive API Documentation (Auto-generated with MkDocs and published on GH Pages)"
+    ],
+    "challenges": [
+      "Efficiently orchestrating different AI services (Whisper, Gemini) in a single workflow.",
+      "Designing the right tools and prompts for a tool-based AI agent.",
+      "Ensuring that ABSA results are returned in a structured and consistent format (Pydantic model)."
+    ],
+    "lessons": [
+      "Developing modular and extensible AI Agents with LangChain.",
+      "How to steer Large Language Models (LLMs) for specific NLP tasks (prompt engineering).",
+      "Efficiently managing I/O-bound AI service calls with FastAPI's asynchronous structure.",
+      "The importance of containerization (Docker) in deploying AI applications with complex dependencies."
+    ],
+    "sourceUrl": "https://github.com/hanifekaptan/Aspectify",
+    "liveUrl": ""
+  },
+  "hair-health-analysis": {
+    "title": "Hair Health Analysis API with Deep Learning",
+    "imageUrl": "hair-health-cover.png",
+    "shortDescription": "A deep learning platform that detects hair type, health issues, and segmentation through image analysis.",
+    "description": "This project aims to provide valuable insights into hair health by analyzing user-uploaded hair photos. It incorporates three main deep learning models: hair segmentation (isolating hair from the image), hair disease classification, and hairstyle classification. Different architectures like YOLO and MLP were experimented with, and the best-performing models were selected and served as a RESTful API using FastAPI.",
+    "technologies": ["Python", "TensorFlow", "Keras", "FastAPI", "OpenCV", "YOLO", "Deep Learning"],
+    "features": [
+      "High-Performance Classification (Disease: 90%, Style: 67% accuracy).",
+      "Precise Hair Segmentation (95% accuracy).",
+      "Easy integration via a RESTful API.",
+      "Custom-trained deep learning models for different tasks."
+    ],
+    "challenges": [
+      "Researching and comparing optimal model architectures for different tasks (classification, segmentation).",
+      "Applying data augmentation techniques to prevent overfitting when working with limited datasets.",
+      "Optimizing model inference times to maintain high API performance."
+    ],
+    "lessons": [
+      "End-to-end training and evaluation of custom image processing models with TensorFlow and Keras.",
+      "Learning what different metrics (Accuracy, IoU) mean for various tasks and how to interpret them.",
+      "How to serve a trained deep learning model through a web service (API)."
+    ],
+    "sourceUrl": "https://github.com/hanifekaptan/Hair-Health-Analysis",
+    "liveUrl": ""
+  },
+  "flow-board-kanban": {
+    "title": "Flow-Board: A Modern Frontend Kanban Board",
+    "imageUrl": "flow-board-cover.png",
+    "shortDescription": "An interactive Kanban application with drag-and-drop functionality, developed with React.",
+    "description": "Flow-Board is a static web application with a minimalist design that simplifies project and task management. It was developed utilizing modern React features (Hooks, State, Context API). Users can easily drag and drop their tasks between 'To Do', 'In Progress', and 'Done' columns. All data is stored in the browser's local storage, requiring no backend.",
+    "technologies": ["React", "Vite", "TypeScript", "JavaScript (ES6+)", "CSS Modules", "HTML5"],
+    "features": [
+      "Smooth Drag-and-Drop Functionality.",
+      "Persistent Data Storage (data is not lost on page refresh thanks to Local Storage).",
+      "Modern React Architecture (Functional components and Hooks).",
+      "Fast and Optimized Development Environment (Vite).",
+      "Easily deployable as a static site on GH Pages."
+    ],
+    "challenges": [
+      "Efficiently and flawlessly structuring state management for complex drag-and-drop interactions.",
+      "Effectively managing state sharing between components (e.g., when moving a card from one column to another).",
+      "Ensuring a consistent user experience across different browsers and screen sizes."
+    ],
+    "lessons": [
+      "Mastering component-based state management with React Hooks (useState, useEffect, useContext).",
+      "Experiencing the benefits of Vite's fast development environment (HMR - Hot Module Replacement).",
+      "Learning practical applications of browser storage APIs (Local Storage)."
+    ],
+    "sourceUrl": "https://github.com/hanifekaptan/Flow-Board",
+    "liveUrl": "https://hanifekaptan.github.io/Flow-Board/"
+  },
+  "portfolio-website": {
+    "title": "Personal Portfolio Website",
+    "imageUrl": "portfolio-cover.png",
+    "shortDescription": "A modern and dynamic portfolio website with multi-language support, developed with React and TypeScript.",
+    "description": "This project is an interactive web application built to showcase my personal work and skills, consisting of 4 main pages (Home, Projects, Blog, Contact). It utilizes React's modern state management (Hooks, Context API) and component-based architecture. Multi-language support is provided through the i18next library, prioritizing user experience. The contact form is integrated with the backend-less service Formspree and is deployed via GH Pages.",
+    "technologies": ["TypeScript", "React", "Vite", "CSS Modules", "i18next", "Formspree", "HTML5"],
+    "features": [
+      "Modern Frontend Architecture (React Hooks & Context API)",
+      "Multi-language Support (English/Turkish)",
+      "Dynamic Content Management (via JSON files for projects and blog posts)",
+      "Serverless Contact Form Integration",
+      "Fully Responsive Design",
+      "Easy Deployment with GitHub Pages"
+    ],
+    "challenges": [
+      "Efficiently structuring application-wide (global) state management (e.g., language selection).",
+      "Seamlessly integrating language translations and URL routing with i18next.",
+      "Ensuring different pages and components look consistent and aesthetically pleasing on various devices and screen sizes."
+    ],
+    "lessons": [
+      "Global state management with React Context API to avoid prop-drilling.",
+      "How to integrate internationalization (i18n) libraries into a React project.",
+      "The fundamentals of CI/CD for a static website and how to deploy it via GH Pages.",
+      "How to enrich frontend applications with third-party services (Formspree)."
+    ],
+    "sourceUrl": "https://github.com/your-username/portfolio-website",
+    "liveUrl": "https://your-username.github.io/portfolio-website/"
+  },
+  "momentum-time-manager": {
+    "title": "Momentum: Desktop Task and Time Manager",
+    "imageUrl": "momentum-cover.png",
+    "shortDescription": "A task management application developed with Python, PyQt5, and SQLite, supporting the Pomodoro technique.",
+    "description": "Momentum is a desktop application that helps users create and manage their tasks and focus on them using the Pomodoro technique. A modern and intuitive interface was designed with PyQt5. All task and time data are stored in a local SQLite database for persistence. The application provides simple analytics and visualizations on completed tasks and focus times.",
+    "technologies": ["Python", "PyQt5", "SQLite", "CSS (Qt Styling)"],
+    "features": [
+      "Task Creation, Editing, and Deletion (CRUD)",
+      "Integrated Pomodoro Timer (with adjustable durations)",
+      "Persistent Data Storage with a Local Database",
+      "Simple Analytics on Task Completion and Focus Times",
+      "Customizable User Interface with CSS"
+    ],
+    "challenges": [
+      "Managing interface interactions (button clicks, timer events) flawlessly using PyQt5's signal-slot mechanism.",
+      "Correctly structuring threading for background processes like the timer.",
+      "Designing the SQLite database schema and optimizing database operations (read/write) to not block the application's main thread."
+    ],
+    "lessons": [
+      "The end-to-end development cycle of a desktop application with Python.",
+      "Designing modern and functional GUIs (Graphical User Interfaces) with PyQt5.",
+      "Local data storage and database management using SQLite.",
+      "The logic of event-driven programming in desktop applications."
+    ],
+    "sourceUrl": "https://github.com/your-username/momentum-time-manager",
+    "liveUrl": ""
+  },
+  "qr-code-generator": {
+    "title": "QR Code Generator (Web & Desktop)",
+    "imageUrl": "qrcode-cover.png",
+    "shortDescription": "A tool developed for different platforms that instantly converts various inputs like text and URLs into QR codes.",
+    "description": "This project offers a solution for QR code generation on two different platforms. The web version was rapidly developed with Python's Streamlit library and deployed via Hugging Face Spaces. The desktop version was designed as a local application that does not require an internet connection, using PyQt5. Both applications accept basic inputs like text and URLs and generate a QR code image instantly.",
+    "technologies": ["Python", "Streamlit", "PyQt5", "Hugging Face Spaces", "segno"],
+    "features": [
+      "Dual-Platform Support (Web and Desktop)",
+      "Instant QR Code Generation",
+      "Simple and Intuitive User Interfaces",
+      "Serverless Deployment for the Web version (Hugging Face)",
+      "Offline capability for the Desktop version"
+    ],
+    "challenges": [
+      "Designing a consistent and simple user experience for two different UI libraries (Streamlit and PyQt5).",
+      "Managing the dependencies of the Streamlit app to deploy it smoothly on the Hugging Face Spaces platform.",
+      "Processing user inputs (especially long texts) flawlessly according to QR code standards."
+    ],
+    "lessons": [
+      "Developing interactive web applications and prototypes very quickly with Streamlit.",
+      "Learning how a Python project can be presented with both a desktop and a web interface.",
+      "How to deploy Python-based applications to modern platforms like Hugging Face Spaces.",
+      "Comparing the basic principles and use cases of different GUI libraries."
+    ],
+    "sourceUrl": "https://github.com/your-username/qr-code-generator",
+    "liveUrl": "https://huggingface.co/spaces/your-username/qr-code-generator"
+  }
+}

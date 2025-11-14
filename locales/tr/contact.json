@@ -1,0 +1,17 @@
+{
+  "mainTitle": "İletişime Geçin",
+  "mainSubtitle": "Bir proje fikriniz mi var veya sadece merhaba mı demek istiyorsunuz? Aşağıdaki formu doldurmaktan çekinmeyin, en kısa sürede size geri döneceğim.",
+  
+  "form": {
+    "nameLabel": "Adınız",
+    "namePlaceholder": "Adınızı girin...",
+    "emailLabel": "E-posta Adresiniz",
+    "emailPlaceholder": "E-posta adresinizi girin...",
+    "messageLabel": "Mesajınız",
+    "messagePlaceholder": "Mesajınızı buraya yazın...",
+    "submitButton": "Mesaj Gönder",
+    "submittingButton": "Gönderiliyor...",
+    "successMessage": "Teşekkürler! Mesajınız başarıyla gönderildi.",
+    "errorMessage": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+  }
+}

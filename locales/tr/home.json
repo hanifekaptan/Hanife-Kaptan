@@ -1,0 +1,181 @@
+{
+    "hero": {
+        "title": "Yapay Zeka Geliştirici & Yazılım Mühendisi",
+        "bio": "Veri odaklı modellerden kullanıcı dostu web uygulamalarına kadar, yapay zeka ve web geliştirme konusundaki uzmanlığımla çözümler sunuyorum.",
+        "ctaContact": "İletişime Geç"
+    },
+    "intro": {
+        "imageAlt": "Profil fotoğrafı",
+        "imageUrl": "profile-photo.png",
+        "bioLabel": "Biyografi",
+        "bioText": "Yapay zeka alanındaki analitik gücü, web geliştirmenin dinamizmiyle birleştirerek somut değer yaratan projeler geliştiriyorum. Veri odaklı modellerden elde ettiğim öngörüleri, kullanıcıların seveceği, hızlı ve modern arayüzler aracılığıyla hayata geçiriyorum.",
+        "experienceLabel": "Yıl Deneyim",
+        "experienceYears": "1+",
+        "skillsLabel": "Başlıca Yetenekler",
+        "skillsList": [
+            "Python",
+            "SQL",
+            "Makine Öğrenimi",
+            "Derin Öğrenme",
+            "Görüntü İşleme",
+            "Büyük Dil Modelleri (LLMs)",
+            "Yapay Zeka Ajanları",
+            "React",
+            "TypeScript"
+        ],
+        "projectsLabel": "Tamamlanan Proje",
+        "projectsNumber": "5+"
+    },
+    "about": {
+        "title": "Hakkımda",
+        "paragraph1": "Benim için yapay zeka, verinin içindeki saklı potansiyeli ortaya çıkarma sanatıdır. Ancak bu potansiyelin gerçek değeri, ancak son kullanıcıya ulaştığında anlam kazanır. İşte bu noktada web teknolojileriyle bir köprü kurarak, karmaşık modellerden elde ettiğim sonuçları herkesin anlayabileceği hızlı, sezgisel ve etkileşimli arayüzlere dönüştürüyorum.",
+        "paragraph2": "Bu yolculukta, teorik bilgimi sektörün önde gelen kurumlarının pratik odaklı programlarıyla pekiştirdim. Turkcell Geleceği Yazanlar ve İBB Data Science Bootcamp gibi proje bazlı yoğun programlar sayesinde, gerçek dünya verileriyle çalışarak kendimi kanıtlama fırsatı buldum.",
+        "paragraph3": "Temel felsefem, bu iki dünyanın en iyi yönlerini birleştirerek veriyi sadece anlaşılır değil, aynı zamanda kullanılabilir kılmaktır. Sürekli öğrenme tutkum ve yeni zorlukların üstesinden gelme isteğimle, her projeye değer katmayı hedefliyorum."
+    },
+    "skills": {
+        "mainTitle": "Uzmanlık Alanlarım",
+        "categoryList": [
+            {
+                "icon": "FaBrain",
+                "title": "Yapay Zeka & Veri Bilimi",
+                "items": [
+                    "Büyük Dil Modelleri (LLMs) & AI Ajanları (LangChain, RAG, ReAct)",
+                    "Derin Öğrenme (TensorFlow, PyTorch, Keras)",
+                    "Makine Öğrenimi (Scikit-learn)",
+                    "Doğal Dil İşleme (NLP) & Görüntü İşleme (OpenCV)",
+                    "Veri Analizi & İşleme (Pandas, NumPy)"
+                ]
+            },
+            {
+                "icon": "FaServer",
+                "title": "Backend & Veri Yönetimi",
+                "items": [
+                    "Python & FastAPI",
+                    "RESTful API Tasarımı & Optimizasyonu",
+                    "Vektör Veritabanları (Pinecone, Chroma, Faiss)",
+                    "İlişkisel Veritabanları (MySQL,PostgreSQL, MS SQL, SQLite)",
+                    "Gelişmiş SQL & Veritabanı Mimarisi"
+                ]
+            },
+            {
+                "icon": "FaCode",
+                "title": "Frontend Geliştirme",
+                "items": [
+                    "JavaScript & TypeScript",
+                    "React",
+                    "HTML5 & CSS3",
+                    "Tailwind CSS",
+                    "Modern State Management"
+                ]
+            },
+            {
+                "icon": "FaCloudUploadAlt",
+                "title": "DevOps & CI/CD",
+                "items": [
+                    "Docker & Konteyner Teknolojileri",
+                    "Versiyon Kontrol (Git & GitHub)",
+                    "AI/ML Platformları (Hugging Face Spaces)",
+                    "Temel Bulut Konseptleri"
+                ]
+            },
+            {
+                "icon": "FaVial",
+                "title": "Test & Kalite Güvencesi",
+                "items": [
+                    "Birim Test (Unit Test) Prensipleri",
+                    "Python Test (Pytest ile Geliştirilmekte)",
+                    "Test Güdümlü Geliştirme (TDD) Farkındalığı"
+                ]
+            },
+            {
+                "icon": "FaCogs",
+                "title": "Diğer Teknolojiler & Prensipler",
+                "items": [
+                    "SOLID Prensipleri",
+                    "C#",
+                    "Java",
+                    "C"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "mainTitle": "İş Deneyimlerim",
+        "steps": [
+            {
+                "date": "Haziran 2025 - Eylül 2025",
+                "title": "Yapay Zeka Stajyeri",
+                "company": "BT10 Bilgi Teknolojileri ve Danışmanlık Ltd. Şti.",
+                "description": "• Python ve TensorFlow/Keras kullanarak bir varlık benzerlik motorunun (Entity Similarity Engine) geliştirilmesi projesinde aktif görev aldım.\n• MLP, Two-Tower, Bi-Encoder ve Facebook DINOv2 gibi derin öğrenme modelleri ile yapay zeka tabanlı benzerlik tespiti üzerine Ar-Ge çalışmaları yürüttüm.\n• Vektör benzerlik aramaları için Faiss kütüphanesini entegre ederek, model çıktılarının yüksek verimlilikle sorgulanmasını sağladım.\n• Python, R ve Java dillerini kullanarak geleneksel benzerlik algoritmaları uyguladım ve yapay zeka tabanlı modellerle performans karşılaştırmaları yaptım.",
+                "imageUrl": "bt10-logo.ico"
+            },
+            {
+                "date": "Şubat 2025 - Haziran 2025",
+                "title": "IT Destek Personeli (Part-Time)",
+                "company": "Balıkesir Üniversitesi",
+                "description": "• Üniversitenin bilgisayar laboratuvarlarındaki sistemlerin kararlı ve güncel kalmasını sağlamak amacıyla düzenli bakım ve yazılım güncelleme süreçlerini yönettim.\n• Akademik ve idari personelin karşılaştığı donanım ve yazılım sorunlarına yönelik teknik destek sağlayarak problem çözme ve iletişim becerilerimi geliştirdim.\n• Yapılan işlemler ve sistem envanteri üzerine düzenli olarak teknik raporlar hazırlayarak dokümantasyon alışkanlığı edindim.",
+                "imageUrl": "baun-logo.ico"
+            }
+        ]
+    },
+    "projects": {
+    "mainTitle": "Öne Çıkan Projelerim",
+    "seeAllText": "Tüm Projeleri Gör",
+    "featured": [
+      {
+        "slug": "aspectify-ai-agent",
+        "imageUrl": "aspectify-cover.png",
+        "category": "AI Agent & NLP",
+        "title": "Aspectify: Otonom Duygu Analizi Agent'ı",
+        "description": "Ses ve metin girdilerinden Aspect-Based Sentiment Analysis (ABSA) yapabilen, LangChain ile geliştirilmiş otonom bir AI ajanı.",
+        "tags": ["Python", "FastAPI", "LangChain", "LLM", "Docker"],
+        "sourceUrl": "https://github.com/hanifekaptan/Aspectify",
+        "liveUrl": ""
+      },
+      {
+        "slug": "hair-health-analysis",
+        "imageUrl": "hair-health-cover.png",
+        "category": "Derin Öğrenme & Görüntü İşleme",
+        "title": "Saç Sağlığı ve Tipi Analizi Platformu",
+        "description": "Görüntü işleme ve derin öğrenme modelleri kullanarak saç tipi, sağlık sorunları ve segmentasyon analizi yapan bir RESTful API.",
+        "tags": ["Python", "TensorFlow", "Keras", "FastAPI"],
+        "sourceUrl": "https://github.com/hanifekaptan/Hair-Health-Analysis",
+        "liveUrl": ""
+      },
+      {
+        "slug": "flow-board-kanban",
+        "imageUrl": "flow-board-cover.png",
+        "category": "Frontend Geliştirme",
+        "title": "Flow-Board: Sürükle-Bırak Kanban Uygulaması",
+        "description": "React ve Vite kullanılarak geliştirilen, verileri tarayıcının yerel depolamasında saklayan interaktif bir Kanban panosu.",
+        "tags": ["React", "Vite", "JavaScript"],
+        "sourceUrl": "https://github.com/hanifekaptan/Flow-Board",
+        "liveUrl": "https://hanifekaptan.github.io/Flow-Board/"
+      }
+    ]
+  },
+    "posts": {
+        "mainTitle": "Öne Çıkan Yazılarım",
+        "selected": [
+            {
+                "slug": "github-conventional-commits",
+                "title": "GitHub Commit Standardizasyonu: Conventional Commits",
+                "summary": "Anlamsız commit mesajlarına son! Proje geçmişinizi okunabilir, takibi kolay ve profesyonel hale getiren Conventional Commits standardını öğrenin.",
+                "link": "/posts/github-conventional-commits"
+            },
+            {
+                "slug": "python-ile-whatsapp-mesaji-gondermek",
+                "title": "Python ile WhatsApp Mesajı Göndermek",
+                "summary": "Python kullanarak Selenium ve Green-API ile WhatsApp mesajı göndermenin iki farklı yöntemini, avantajları ve dezavantajlarıyla ele alıyoruz.",
+                "link": "/posts/python-ile-whatsapp-mesaji-gondermek"
+            }
+        ],
+        "readMoreText": "Devamını Oku →",
+        "seeAllText": "Tüm Yazıları Gör"
+    },
+    "cta": {
+        "title": "Birlikte Harika Projeler Geliştirelim",
+        "subtitle": "Bir fikriniz mi var veya sadece merhaba mı demek istiyorsunuz? Benimle iletişime geçin.",
+        "buttonText": "İletişime Geç"
+    }
+}

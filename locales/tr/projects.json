@@ -1,0 +1,168 @@
+{
+  "mainTitle": "Projelerim",
+  "mainSubtitle": "Yapay zeka ve web geliştirme alanındaki yeteneklerimi sergileyen bazı çalışmalarım.",
+  "seeAllText": "Tüm Projeleri Gör",
+  "noProjectsFound": "Aradığınız kriterlere uygun proje bulunamadı.",
+
+  "aspectify-ai-agent": {
+    "title": "Aspectify: Otonom Duygu Analizi Agent'ı",
+    "imageUrl": "aspectify-cover.png",
+    "shortDescription": "Ses ve metin girdilerinden Aspect-Based Sentiment Analysis (ABSA) yapabilen, LangChain ile geliştirilmiş otonom bir AI ajanı.",
+    "description": "Aspectify, geleneksel duygu analizinin ötesine geçerek, bir metin veya konuşma içerisindeki belirli konulara (aspect) yönelik duyguları (pozitif, negatif, nötr) tespit eden akıllı bir sistemdir. OpenAI Whisper ile sesleri metne çevirir, ardından Gemini LLM modellerini kullanarak derinlemesine ABSA analizi yapar. LangChain framework'ü ile orkestre edilen otonom bir AI ajanı olarak tasarlanmıştır ve araç tabanlı (tool-based) bir mimariye sahiptir. Pinecone vektör veritabanı ile RAG yetenekleri için bir temel oluşturulmuştur.",
+    "technologies": ["Python", "FastAPI", "LangChain", "OpenAI (Whisper)", "Google (Gemini)", "Pinecone", "SQL", "Docker", "Pydantic", "MkDocs"],
+    "features": [
+      "Sesli Girdileri Anlama (OpenAI Whisper Entegrasyonu)",
+      "Çok Yönlü Duygu Tespiti (Aspect-Based Sentiment Analysis)",
+      "Otonom Agent Mimarisi (LangChain)",
+      "Vektör Veritabanı Entegrasyonu (Pinecone)",
+      "Güçlü Veri Validasyonu (Pydantic)",
+      "Kapsamlı API Dokümantasyonu (MkDocs ile otomatik oluşturulmuş ve GH Pages'de yayınlanmıştır)"
+    ],
+    "challenges": [
+      "Farklı AI servislerini (Whisper, Gemini) tek bir akışta verimli bir şekilde orkestre etmek.",
+      "Tool-based AI agent için doğru araçları (tools) ve yönlendirmeleri (prompts) tasarlamak.",
+      "ABSA sonuçlarının yapılandırılmış ve tutarlı bir formatta (Pydantic modeli) döndürülmesini sağlamak."
+    ],
+    "lessons": [
+      "LangChain ile modüler ve genişletilebilir AI Agent'lar geliştirme.",
+      "Büyük Dil Modelleri'nin (LLM) spesifik NLP görevleri için nasıl yönlendirileceği (prompt engineering).",
+      "FastAPI'nin asenkron yapısı ile I/O-bound (Girdi/Çıktı-yoğun) AI servis çağrılarının verimli yönetimi.",
+      "Containerization'ın (Docker) karmaşık bağımlılıklara sahip AI uygulamalarını dağıtmadaki önemi."
+    ],
+    "sourceUrl": "https://github.com/hanifekaptan/Aspectify",
+    "liveUrl": ""
+  },
+  "hair-health-analysis": {
+    "title": "Derin Öğrenme ile Saç Sağlığı Analizi API'si",
+    "imageUrl": "hair-health-cover.png",
+    "shortDescription": "Görüntü analizi ile saç tipi, sağlık sorunları ve segmentasyon tespiti yapan bir derin öğrenme platformu.",
+    "description": "Bu proje, kullanıcının yüklediği saç fotoğraflarını analiz ederek saç sağlığı hakkında değerli içgörüler sunmayı amaçlamaktadır. Proje, üç ana derin öğrenme modelini içerir: Saç segmentasyonu (görüntüden saçı ayırma), saç hastalığı sınıflandırması ve saç stili sınıflandırması. YOLO ve MLP gibi farklı mimariler denenmiş, en yüksek başarım gösteren modeller seçilerek FastAPI ile bir RESTful API olarak sunulmuştur.",
+    "technologies": ["Python", "TensorFlow", "Keras", "FastAPI", "OpenCV", "YOLO", "Deep Learning"],
+    "features": [
+      "Yüksek Başarımlı Sınıflandırma (Hastalık: %90, Stil: %67 doğruluk).",
+      "Hassas Saç Segmentasyonu (%95 doğruluk).",
+      "RESTful API ile kolay entegrasyon imkanı.",
+      "Farklı görevler için özelleştirilmiş ve eğitilmiş derin öğrenme modelleri."
+    ],
+    "challenges": [
+      "Farklı görevler (sınıflandırma, segmentasyon) için en uygun model mimarilerini araştırmak ve karşılaştırmak.",
+      "Sınırlı veri setleri ile çalışırken overfitting'i (aşırı öğrenme) önlemek için veri çoğaltma (data augmentation) teknikleri uygulamak.",
+      "Modellerin çıkarım (inference) sürelerini optimize ederek API performansını yüksek tutmak."
+    ],
+    "lessons": [
+      "TensorFlow ve Keras ile custom (özel) görüntü işleme modellerinin uçtan uca eğitimi ve değerlendirilmesi.",
+      "Farklı metriklerin (Accuracy, IoU) farklı görevler için ne anlama geldiğini ve nasıl yorumlanacağını öğrenme.",
+      "Eğitilmiş bir derin öğrenme modelinin bir web servisi (API) aracılığıyla nasıl sunulacağı."
+    ],
+    "sourceUrl": "https://github.com/hanifekaptan/Hair-Health-Analysis",
+    "liveUrl": ""
+  },
+  "flow-board-kanban": {
+    "title": "Flow-Board: Modern Frontend Kanban Panosu",
+    "imageUrl": "flow-board-cover.png",
+    "shortDescription": "React ile geliştirilmiş, sürükle-bırak özellikli, interaktif bir Kanban uygulaması.",
+    "description": "Flow-Board, proje ve görev yönetimini basitleştiren, minimalist bir tasarıma sahip statik bir web uygulamasıdır. React'in modern özelliklerinden (Hooks, State, Context API) faydalanılarak geliştirilmiştir. Kullanıcılar görevlerini 'Yapılacak', 'Yapılıyor' ve 'Yapıldı' sütunları arasında kolayca sürükleyip bırakabilir. Tüm veriler, herhangi bir backend ihtiyacı olmadan tarayıcının yerel depolamasında (local storage) saklanır.",
+    "technologies": ["React", "Vite", "TypeScript", "JavaScript (ES6+)", "CSS Modules", "HTML5"],
+    "features": [
+      "Akıcı Sürükle ve Bırak (Drag-and-Drop) Fonksiyonelliği.",
+      "Kalıcı Veri Saklama (Local Storage ile sayfa yenilense bile veriler kaybolmaz).",
+      "Modern React Mimarisi (Fonksiyonel bileşenler ve Hook'lar).",
+      "Hızlı ve Optimize Geliştirme Ortamı (Vite).",
+      "Statik site olarak GH Pages üzerinden kolayca yayınlanabilme."
+    ],
+    "challenges": [
+      "Karmaşık sürükle-bırak etkileşimleri için state yönetimini verimli ve hatasız bir şekilde kurgulamak.",
+      "Bileşenler arası state paylaşımını (örneğin, bir sütundan diğerine kart taşındığında) etkin bir şekilde yönetmek.",
+      "Farklı tarayıcılarda ve ekran boyutlarında tutarlı bir kullanıcı deneyimi sağlamak."
+    ],
+    "lessons": [
+      "React Hook'ları (useState, useEffect, useContext) ile bileşen bazlı state yönetiminde uzmanlaşma.",
+      "Vite'ın sunduğu hızlı geliştirme ortamının (HMR - Hot Module Replacement) avantajlarını deneyimleme.",
+      "Tarayıcı depolama API'lerinin (Local Storage) pratik uygulamalarını öğrenme."
+    ],
+    "sourceUrl": "https://github.com/hanifekaptan/Flow-Board",
+    "liveUrl": "https://hanifekaptan.github.io/Flow-Board/"
+  },
+  "portfolio-website": {
+    "title": "Kişisel Portfolyo Sitesi",
+    "imageUrl": "portfolio-cover.png",
+    "shortDescription": "React ve TypeScript ile geliştirilmiş, çok dilli desteğe sahip, modern ve dinamik bir portfolyo web sitesi.",
+    "description": "Bu proje, kişisel çalışmalarımı ve yeteneklerimi sergilemek amacıyla geliştirilmiş, 4 ana sayfadan (Ana Sayfa, Projeler, Blog, İletişim) oluşan interaktif bir web uygulamasıdır. React'in modern state yönetimi (Hooks, Context API) ve bileşen bazlı mimarisi kullanılmıştır. i18next kütüphanesi ile çoklu dil desteği sağlanmış, kullanıcı deneyimi ön planda tutulmuştur. İletişim formu, backend gerektirmeyen Formspree servisi ile entegre edilmiştir ve GH Pages üzerinden canlıya alınmıştır.",
+    "technologies": ["TypeScript", "React", "Vite", "CSS Modules", "i18next", "Formspree", "HTML5"],
+    "features": [
+      "Modern Frontend Mimarisi (React Hooks & Context API)",
+      "Çoklu Dil Desteği (İngilizce/Türkçe)",
+      "Dinamik İçerik Yönetimi (JSON dosyaları ile proje ve blog yazısı yönetimi)",
+      "Sunucusuz (Serverless) İletişim Formu Entegrasyonu",
+      "Tamamen Duyarlı (Responsive) Tasarım",
+      "GitHub Pages ile Kolay Dağıtım (Deployment)"
+    ],
+    "challenges": [
+      "Uygulama genelinde (global) state yönetimini (örneğin dil seçimi) verimli bir şekilde kurgulamak.",
+      "i18next ile dil çevirilerini ve URL yönlendirmelerini sorunsuz bir şekilde entegre etmek.",
+      "Farklı sayfa ve bileşenlerin farklı cihazlarda ve ekran boyutlarında tutarlı ve estetik görünmesini sağlamak."
+    ],
+    "lessons": [
+      "React Context API ile global state yönetimi ve prop-drilling'den kaçınma.",
+      "Uluslararasılaşma (i18n) kütüphanelerinin bir React projesine nasıl entegre edileceği.",
+      "Statik bir web sitesinin CI/CD süreçlerinin temelleri ve GH Pages üzerinden nasıl yayınlanacağı.",
+      "Üçüncü parti servisler (Formspree) ile frontend uygulamalarının nasıl zenginleştirileceği."
+    ],
+    "sourceUrl": "https://github.com/kullanici-adi/portfolio-website",
+    "liveUrl": "https://kullanici-adi.github.io/portfolio-website/"
+  },
+  "momentum-time-manager": {
+    "title": "Momentum: Masaüstü Görev ve Zaman Yönetimi",
+    "imageUrl": "momentum-cover.png",
+    "shortDescription": "Python, PyQt5 ve SQLite ile geliştirilmiş, Pomodoro tekniğini destekleyen bir görev yönetimi uygulaması.",
+    "description": "Momentum, kullanıcıların görevlerini oluşturmasına, yönetmesine ve Pomodoro tekniği ile bu görevlere odaklanmasına yardımcı olan bir masaüstü uygulamasıdır. PyQt5 ile modern ve sezgisel bir arayüz tasarlanmıştır. Tüm görev ve zaman verileri, lokal bir SQLite veritabanında saklanarak kalıcılık sağlanmıştır. Uygulama, tamamlanan görevler ve odaklanma süreleri hakkında basit analizler ve görselleştirmeler sunar.",
+    "technologies": ["Python", "PyQt5", "SQLite", "CSS (Qt Styling)"],
+    "features": [
+      "Görev Oluşturma, Düzenleme ve Silme (CRUD)",
+      "Entegre Pomodoro Zamanlayıcı (ayarlanabilir süreler ile)",
+      "Lokal Veritabanı ile Kalıcı Veri Saklama",
+      "Görev Tamamlama ve Odaklanma Süreleri Üzerine Basit Analizler",
+      "CSS ile Özelleştirilebilir Kullanıcı Arayüzü"
+    ],
+    "challenges": [
+      "PyQt5'in sinyal-slot mekanizmasını kullanarak arayüz etkileşimlerini (buton tıklamaları, zamanlayıcı olayları) hatasız yönetmek.",
+      "Zamanlayıcı gibi arkaplanda çalışması gereken işlemler için threading (iş parçacığı) yönetimini doğru kurgulamak.",
+      "SQLite veritabanı şemasını tasarlamak ve veritabanı işlemlerini (okuma/yazma) uygulamanın ana akışını engellemeyecek şekilde optimize etmek."
+    ],
+    "lessons": [
+      "Python ile uçtan uca bir masaüstü uygulaması geliştirme döngüsü.",
+      "PyQt5 ile modern ve işlevsel GUI (Grafiksel Kullanıcı Arayüzü) tasarlama.",
+      "SQLite kullanarak lokal veri depolama ve veritabanı yönetimi.",
+      "Masaüstü uygulamalarında olay bazlı (event-driven) programlama mantığı."
+    ],
+    "sourceUrl": "https://github.com/kullanici-adi/momentum-time-manager",
+    "liveUrl": ""
+  },
+  "qr-code-generator": {
+    "title": "QR Kod Üretici (Web & Masaüstü)",
+    "imageUrl": "qrcode-cover.png",
+    "shortDescription": "Farklı platformlar için geliştirilmiş, metin ve URL gibi çeşitli girdileri anında QR koda dönüştüren bir araç.",
+    "description": "Bu proje, QR kod oluşturma ihtiyacına iki farklı platformda çözüm sunar. Web versiyonu, Python'un Streamlit kütüphanesi ile hızlıca geliştirilmiş ve Hugging Face Spaces üzerinden canlıya alınmıştır. Masaüstü versiyonu ise PyQt5 kullanılarak, internet bağlantısı gerektirmeyen bir yerel uygulama olarak tasarlanmıştır. Her iki uygulama da metin, URL gibi temel girdileri kabul eder ve anında QR kod görseli üretir.",
+    "technologies": ["Python", "Streamlit", "PyQt5", "Hugging Face Spaces", "segno"],
+    "features": [
+      "Çift Platform Desteği (Web ve Masaüstü)",
+      "Anlık QR Kod Üretimi",
+      "Kolay ve Anlaşılır Kullanıcı Arayüzleri",
+      "Web versiyonu için sunucusuz dağıtım (Hugging Face)",
+      "Masaüstü versiyonu için çevrimdışı çalışma imkanı"
+    ],
+    "challenges": [
+      "İki farklı arayüz kütüphanesi (Streamlit ve PyQt5) için tutarlı ve basit bir kullanıcı deneyimi tasarlamak.",
+      "Streamlit uygulamasının bağımlılıklarını yöneterek Hugging Face Spaces platformunda sorunsuz bir şekilde deploy etmek.",
+      "Kullanıcı girdilerini (özellikle uzun metinleri) QR kod standartlarına uygun şekilde hatasız işlemek."
+    ],
+    "lessons": [
+      "Streamlit ile çok hızlı bir şekilde interaktif web uygulamaları ve prototipler geliştirme.",
+      "Bir Python projesinin hem masaüstü hem de web arayüzüyle nasıl sunulabileceğini öğrenme.",
+      "Hugging Face Spaces gibi modern platformlara Python tabanlı uygulamaların nasıl dağıtılacağı.",
+      "Farklı GUI kütüphanelerinin temel prensiplerini ve kullanım alanlarını karşılaştırma."
+    ],
+    "sourceUrl": "https://github.com/kullanici-adi/qr-code-generator",
+    "liveUrl": "https://huggingface.co/spaces/kullanici-adi/qr-code-generator"
+  }
+}
