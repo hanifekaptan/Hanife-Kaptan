@@ -1,0 +1,77 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 60vh;
+    padding: 4rem 2rem;
+    background: #161616;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .bio {
+        font-size: 1rem;
+    }
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.heroContent {
+    width: 100%;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.bio {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #f2f1ed;
+    max-width: 650px;
+    margin: 1.5rem auto 2.5rem;
+}
+
+.ctaContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ctaButton {
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.ctaPrimary {
+    background-color: #b9c7f8;
+    color: #0d21a5;
+}
+
+.ctaPrimary:hover {
+    background-color: #0d21a5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px #0d21a5;
+    color: #f2f1ed
+}

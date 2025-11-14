@@ -1,0 +1,78 @@
+/* src/components/ui/FilterButton/FilterButton.module.css */
+
+.filterContainer {
+    position: relative;
+}
+
+.filterButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background-color: #b9c7f8;
+    color: #0d21a5;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filterButton:hover {
+    background-color: #0d21a5;
+    color: #f2f1ed;
+}
+
+.filterPanel {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    background-color: #1e1e24;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    width: 280px;
+    z-index: 100;
+    border: 1px solid #444;
+}
+
+.filterPanel h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #f2f1ed;
+    text-transform: uppercase;
+    margin: 0 0 0.75rem 0;
+}
+
+.filterPanel select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #f2f1ed;
+    border-radius: 8px;
+    background-color: #1e1e24;
+    color: #f2f1ed;
+    font-size: 1rem;
+    cursor: pointer;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23f2f1ed' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+}
+
+.filterPanel select:focus {
+    outline: none;
+    border-color: #b9c7f8;
+    box-shadow: 0 0 0 3px rgba(185, 199, 248, 0.2);
+}
+
+.filterPanel hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 1.5rem 0;
+}

@@ -1,0 +1,241 @@
+.shared-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .shared-container {
+        padding: 0 1rem;
+    }
+}
+
+.shared-button {
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.shared-button:focus {
+    outline: 2px solid #b9c7f8;
+    outline-offset: 2px;
+}
+
+/* Primary Button */
+.shared-button-primary {
+    background-color: #b9c7f8;
+    color: #0d21a5;
+}
+
+.shared-button-primary:hover {
+    background-color: #0d21a5;
+    color: #f2f1ed;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(13, 33, 165, 0.3);
+}
+
+.shared-button-secondary {
+    background-color: transparent;
+    color: #b9c7f8;
+    border-color: #b9c7f8;
+}
+
+.shared-button-secondary:hover {
+    background-color: #b9c7f8;
+    color: #0d21a5;
+    transform: translateY(-2px);
+}
+
+.shared-button-outline {
+    background-color: transparent;
+    color: #f2f1ed;
+    border-color: #f2f1ed;
+}
+
+.shared-button-outline:hover {
+    background-color: #f2f1ed;
+    color: #161616;
+}
+
+@media (max-width: 768px) {
+    .shared-button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+.shared-card {
+    background-color: #1e1e24;
+    border: 1px solid #333;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+.shared-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.shared-section {
+    width: 100%;
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .shared-section {
+        padding: 2rem 1rem;
+    }
+}
+
+.shared-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.shared-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #f2f1ed;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.shared-header p {
+    font-size: 1.1rem;
+    color: #f2f1ed;
+    margin-top: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .shared-header {
+        margin-bottom: 2rem;
+    }
+
+    .shared-header h1 {
+        font-size: 2rem;
+    }
+
+    .shared-header p {
+        font-size: 1rem;
+    }
+}
+
+.shared-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .shared-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.shared-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1e1e24;
+    color: #f2f1ed;
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.shared-input:focus {
+    outline: none;
+    border-color: #b9c7f8;
+}
+
+.shared-input::placeholder {
+    color: #888;
+}
+
+/* --- ORTAK SELECT STİLLERİ --- */
+.shared-select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1e1e24;
+    color: #f2f1ed;
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.shared-select:focus {
+    outline: none;
+    border-color: #b9c7f8;
+}
+
+/* --- ORTAK NO RESULTS STİLLERİ --- */
+.shared-no-results {
+    text-align: center;
+    color: #f2f1ed;
+    padding: 4rem 0;
+    font-size: 1.1rem;
+}
+
+/* --- ORTAK LINK STİLLERİ --- */
+.shared-link {
+    color: #b9c7f8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.shared-link:hover {
+    color: #f2f1ed;
+    text-decoration: underline;
+}
+
+/* --- ORTAK TAG/BADGE STİLLERİ --- */
+.shared-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: transparent;
+    border: 1px solid #f2f1ed;
+    color: #f2f1ed;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.shared-tag-primary {
+    background-color: #b9c7f8;
+    color: #0d21a5;
+    border-color: #b9c7f8;
+}

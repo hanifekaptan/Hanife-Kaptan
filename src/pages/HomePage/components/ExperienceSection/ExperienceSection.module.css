@@ -1,0 +1,182 @@
+:root {
+    --line-color: #f2f1ed;
+    --line-thickness: 3px;
+    --marker-size: 18px;
+    --marker-color: #b9c7f8;
+    --text-color: #f2f1ed;
+    --title-color: #f2f1ed;
+    --spacing: 40px;
+}
+
+.experience {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--title-color);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #f2f1ed;
+}
+
+.timeline {
+    position: relative;
+    padding-left: var(--spacing);
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: calc(var(--marker-size) / 2);
+    top: 5px;
+    bottom: 0;
+    width: var(--line-thickness);
+    background-color: var(--line-color);
+    transform: translateX(-50%);
+}
+
+.timelineItem {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.timelineItem:last-child {
+    margin-bottom: 0;
+}
+
+.timelineMarker {
+    position: absolute;
+    top: 5px;
+    left: calc(-1 * var(--spacing) + (var(--marker-size) / 2));
+    transform: translateX(-50%);
+    width: var(--marker-size);
+    height: var(--marker-size);
+
+    background-color: var(--line-color);
+    border: var(--line-thickness) solid var(--line-color);
+    border-radius: 50%;
+    z-index: 1;
+    transition: background-color 0.2s ease;
+}
+
+.timelineItem:hover .timelineMarker {
+    background-color: #161616;
+}
+
+.timelineContent {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logoContainer {
+    flex-shrink: 0;
+    margin-right: 25px;
+}
+
+.timelineLogo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid var(--line-color);
+    padding: 5px;
+    background-color: #000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.timelineText {
+    flex-grow: 1;
+}
+
+.date {
+    display: block;
+    font-size: 0.9rem;
+    color: #f2f1ed;
+    margin-bottom: 5px;
+}
+
+.stepTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    color: var(--title-color);
+}
+
+.company {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin: 0 0 10px 0;
+    color: #f2f1ed;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+.description ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.description li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.description li:last-child {
+    margin-bottom: 0;
+}
+
+.description li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--marker-color);
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        padding-left: 25px;
+    }
+
+    .timelineMarker {
+        left: calc(-25px + (var(--marker-size) / 2));
+    }
+
+    .timelineContent {
+        flex-direction: column;
+    }
+
+    .logoContainer {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .timelineLogo {
+        width: 60px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,215 @@
+{
+    "navbar": {
+        "home": "Anasayfa",
+        "projects": "Projeler",
+        "blog": "Yazılar",
+        "contact": "İletişim"
+    },
+    "footer": {
+        "copyright": "© {{year}} Hanife Kaptan. Tüm hakları saklıdır."
+    },
+    "hero": {
+        "title": "Geliştirici",
+        "bio": "Tutkulu bir geliştirici olarak, dinamik ve harika web uygulamaları oluşturma konusunda uzmanım.",
+        "ctaContact": "İletişime Geç"
+    },
+    "intro": {
+        "imageAlt": "Profil fotoğrafı",
+        "bioLabel": "Biyografi",
+        "bioText": "Yapay zeka alanındaki analitik gücü, web geliştirmenin dinamizmiyle birleştirerek somut değer yaratan projeler geliştiriyorum. Veri odaklı modellerden elde ettiğim öngörüleri, kullanıcıların seveceği, hızlı ve modern arayüzler aracılığıyla hayata geçiriyorum.",
+        "experienceLabel": "Yıl Deneyim",
+        "experienceYears": "1+",
+        "skillsLabel": "Başlıca Yetenekler",
+        "skillsList": [
+            "Python",
+            "Makine Öğrenimi",
+            "Derin Öğrenme",
+            "Doğal Dil İşleme (NLP)",
+            "Büyük Dil Modelleri (LLMs)",
+            "Yapay Zeka Ajanları",
+            "React",
+            "TypeScript"
+        ],
+        "projectsLabel": "Tamamlanan Proje",
+        "projectsNumber": "10+"
+    },
+    "about": {
+        "title": "Hakkımda",
+        "paragraph1": "Benim için yapay zeka, verinin içindeki saklı potansiyeli ortaya çıkarma sanatıdır. Ancak bu potansiyelin gerçek değeri, ancak son kullanıcıya ulaştığında anlam kazanır. İşte bu noktada web teknolojileriyle bir köprü kurarak, karmaşık modellerden elde ettiğim sonuçları herkesin anlayabileceği hızlı, sezgisel ve etkileşimli arayüzlere dönüştürüyorum.",
+        "paragraph2": "Bu yolculukta, teorik bilgimi sektörün önde gelen kurumlarının pratik odaklı programlarıyla pekiştirdim. **Turkcell Geleceği Yazanlar** ve **İBB Data Science Bootcamp** gibi proje bazlı yoğun programlar sayesinde, gerçek dünya verileriyle çalışarak kendimi kanıtlama fırsatı buldum.",
+        "paragraph3": "Temel felsefem, bu iki dünyanın en iyi yönlerini birleştirerek veriyi sadece anlaşılır değil, aynı zamanda kullanılabilir kılmaktır. Sürekli öğrenme tutkum ve yeni zorlukların üstesinden gelme isteğimle, her projeye değer katmayı hedefliyorum."
+    },
+    "expertise": {
+        "mainTitle": "Uzmanlık Alanlarım",
+        "mainSubtitle": "Çok çeşitli becerilerle donanmış bir geliştirici olarak, veri bilimi, yapay zeka ve full-stack geliştirme konularında derinlemesine bilgi sahibiyim.",
+        "ai": {
+            "title": "Veri Bilimi & Yapay Zeka",
+            "description": "Fikirleri olağanüstü web ve mobil deneyimlere dönüştürerek, karmaşık veri setlerinden anlamlı içgörüler çıkarıyorum."
+        },
+        "fullstack": {
+            "title": "Full-Stack Geliştirme",
+            "description": "Sezgisel, verimli ve kullanımı keyifli arayüzler tasarlayarak, baştan sona sağlam ve ölçeklenebilir uygulamalar inşa ediyorum."
+        },
+        "software": {
+            "title": "Yazılım Geliştirme",
+            "description": "Kitlenizle bağ kuran, görsel olarak çarpıcı tasarımlar hazırlayarak, yazılımın temel prensiplerine uygun, temiz ve sürdürülebilir kodlar yazıyorum."
+        }
+    },
+    "skills": {
+        "mainTitle": "Uzmanlık Alanlarım & Teknik Yeteneklerim",
+        "mainSubtitle": "Çok çeşitli becerilerle donanmış bir geliştirici olarak, projelerimde kullandığım ve hakim olduğum teknolojiler ile araçlar aşağıdadır.",
+        "categoryList": [
+            {
+                "icon": "FaBrain",
+                "title": "Yapay Zeka & Veri Bilimi",
+                "items": [
+                    "Python",
+                    "Makine Öğrenimi (Scikit-learn)",
+                    "Derin Öğrenme (TensorFlow, PyTorch)",
+                    "Doğal Dil İşleme (NLP)",
+                    "Büyük Dil Modelleri (LLMs)",
+                    "Veri Analizi (Pandas, NumPy)"
+                ]
+            },
+            {
+                "icon": "FaServer",
+                "title": "Full-Stack Geliştirme",
+                "items": [
+                    "TypeScript",
+                    "React",
+                    "Node.js",
+                    "FastAPI (Python)",
+                    "HTML5 & CSS3",
+                    "RESTful API Tasarımı"
+                ]
+            },
+            {
+                "icon": "FaLaptopCode",
+                "title": "Yazılım Geliştirme",
+                "items": [
+                    "JavaScript (ES6+)",
+                    "C++",
+                    "Java",
+                    "SOLID Prensipleri",
+                    "Tasarım Desenleri"
+                ]
+            },
+            {
+                "icon": "FaDatabase",
+                "title": "Veritabanları",
+                "items": [
+                    "PostgreSQL",
+                    "MongoDB",
+                    "SQL & NoSQL Kavramları"
+                ]
+            },
+            {
+                "icon": "FaCloudUploadAlt",
+                "title": "DevOps & Dağıtım",
+                "items": [
+                    "Docker",
+                    "Git & GitHub",
+                    "Temel Bulut Kavramları (AWS, GCP)"
+                ]
+            },
+            {
+                "icon": "FaVial",
+                "title": "Test Araçları",
+                "items": [
+                    "Unit Testing (Jest)",
+                    "API Testleri (Postman)"
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "mainTitle": "İş Deneyimim",
+        "mainSubtitle": "Kariyerim boyunca üstlendiğim roller ve katkıda bulunduğum projeler.",
+        "steps": [
+            {
+                "date": "2023 - Günümüz",
+                "title": "Yapay Zeka Geliştirici",
+                "company": "Teknoloji A.Ş.",
+                "description": "Müşteri davranışlarını analiz eden ve kişiselleştirilmiş ürün önerileri sunan makine öğrenmesi modelleri geliştirdim.",
+                "imageUrl": "experience-1.svg"
+            },
+            {
+                "date": "2022 - 2023",
+                "title": "Full-Stack Geliştirici (Stajyer)",
+                "company": "Web Çözümleri Ltd.",
+                "description": "Mevcut bir e-ticaret platformunun React tabanlı arayüzünü geliştirmeye ve Node.js backend'ine yeni API'ler eklemeye yardımcı oldum.",
+                "imageUrl": "experience-2.svg"
+            }
+        ]
+    },
+    "projects": {
+        "mainTitle": "Projelerim",
+        "mainSubtitle": "Yapay zeka ve web geliştirme alanındaki yeteneklerimi sergileyen bazı çalışmalarım.",
+        "featured": [
+            {
+                "imageUrl": "project-ai.jpg",
+                "category": "Yapay Zeka",
+                "title": "Duygu Analizi API'si",
+                "description": "Metin girdilerinden duygu durumunu (pozitif, negatif, nötr) tespit eden, FastAPI ile geliştirilmiş bir RESTful API.",
+                "tags": [
+                    "Python",
+                    "FastAPI",
+                    "TensorFlow",
+                    "Docker"
+                ],
+                "sourceUrl": "https://github.com/...",
+                "liveUrl": "https://api.example.com/docs"
+            },
+            {
+                "imageUrl": "project-fullstack.jpg",
+                "category": "Full-Stack Geliştirme",
+                "title": "İnteraktif Veri Görselleştirme Paneli",
+                "description": "React ile geliştirilmiş dinamik bir arayüzde, karmaşık veri setlerini interaktif grafiklerle sunan bir dashboard uygulaması.",
+                "tags": [
+                    "React",
+                    "TypeScript",
+                    "D3.js",
+                    "Node.js"
+                ],
+                "sourceUrl": "https://github.com/...",
+                "liveUrl": "https://dashboard.example.com"
+            },
+            {
+                "imageUrl": "project-web.jpg",
+                "category": "Frontend Geliştirme",
+                "title": "Kişisel Blog Platformu",
+                "description": "Markdown desteği sunan, temiz ve minimalist bir tasarıma sahip, Vite ile oluşturulmuş statik bir blog sitesi.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "CSS Modules"
+                ],
+                "sourceUrl": "https://github.com/...",
+                "liveUrl": "https://blog.example.com"
+            }
+        ],
+        "seeAllText": "Tüm Projeleri Gör"
+    },
+    "posts": {
+        "mainTitle": "Yazılarım & Düşüncelerim",
+        "selected": [
+            {
+                "title": "Transformer Mimarisi: Adım Adım Bir Bakış",
+                "summary": "Modern NLP modellerinin temelini oluşturan bu güçlü mimarinin iç işleyişini ve temel bileşenlerini inceliyorum.",
+                "link": "/blog/transformer-mimarisi"
+            },
+            {
+                "title": "Bir Görüntü Tanıma Projesinde Overfitting Sorununu Çözmek",
+                "summary": "Bir React projesinde karşılaştığım overfitting problemini teşhis etme ve pratik çözüm adımlarımı paylaşıyorum.",
+                "link": "/blog/overfitting-cozumu"
+            }
+        ],
+        "readMoreText": "Devamını Oku",
+        "seeAllText": "Tüm Yazıları Gör"
+    },
+    "cta": {
+    "title": "Birlikte Harika Projeler Geliştirelim",
+    "subtitle": "Bir fikriniz mi var veya sadece merhaba mı demek istiyorsunuz? Benimle iletişime geçmekten çekinmeyin.",
+    "buttonText": "İletişime Geç"
+  }
+}

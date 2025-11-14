@@ -1,0 +1,60 @@
+{
+    "navbar": {
+        "home": "Anasayfa",
+        "projects": "Projeler",
+        "blog": "Yazılar",
+        "contact": "İletişim",
+        "logo": "logo.ico"
+    },
+    "footer": {
+        "copyright": "© {{year}} Hanife Kaptan. Tüm hakları saklıdır."
+    },
+    "searchPlaceholder": "Arama yapın...",
+    "filterButtonText": "Filtrele",
+    "githubLinkAriaLabel": "GitHub deposunu yeni sekmede aç",
+    "liveDemoLinkAriaLabel": "Canlı demoyu yeni sekmede aç",
+    "categories": {
+        "all": "Tümü",
+        "ai": "Yapay Zeka",
+        "web-development": "Web Geliştirme",
+        "full-stack": "Full-Stack"
+    },
+    "tags": {
+        "python": "Python",
+        "fastapi": "FastAPI",
+        "tensorflow": "TensorFlow",
+        "react": "React",
+        "typescript": "TypeScript",
+        "d3js": "D3.js"
+    },
+    "sortBy": {
+        "title": "Sırala",
+        "newest": "En Yeni",
+        "oldest": "En Eski"
+    },
+    "back": "Geri",
+    "viewLive": "Canlı Görüntüle",
+    "viewSource": "Kaynak Kodu",
+    "description": "Açıklama",
+    "technologies": "Kullanılan Teknolojiler",
+    "features": "Özellikler",
+    "challenges": "Karşılaşılan Zorluklar",
+    "lessons": "Öğrenilen Dersler",
+    "projectInfo": "Proje Bilgileri",
+    "category": "Kategori",
+    "year": "Yıl",
+    "difficulty": "Zorluk",
+    "difficultyLevels": {
+        "beginner": "Başlangıç",
+        "intermediate": "Orta",
+        "advanced": "İleri"
+    },
+    "rating": "Değerlendirme",
+    "backToBlog": "Tüm Yazılara Dön",
+    "notFound": {
+        "title": "Sayfa Bulunamadı",
+        "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+        "backHome": "Ana Sayfaya Dön",
+        "viewProjects": "Projeleri Gör"
+    }
+}

@@ -1,0 +1,111 @@
+.postsSection {
+    width: 100%;
+    padding: 6rem 2rem;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #f2f1ed;
+}
+
+.postList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.postCard {
+    background-color: #1e1e24;
+    width: 100%;
+    padding: 2.0rem 3rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f2f1ed;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.postCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.07);
+}
+
+.postTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f2f1ed;
+    margin: 0 0 1rem 0;
+}
+
+.postSummary {
+    font-size: 1rem;
+    color: #f2f1ed;
+    line-height: 1.7;
+    flex-grow: 1;
+}
+
+.readMore {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #f2f1ed;
+    margin-top: 1.5rem;
+    align-self: flex-start;
+    transition: color 0.3s ease;
+}
+
+.postCard:hover .readMore {
+    color: #f2f1ed;
+}
+
+.seeAllContainer {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.seeAllButton {
+    display: inline-block;
+    padding: 0.9rem 2.5rem;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0d21a5;
+    background-color: #b9c7f8;
+    transition: all 0.3s ease;
+}
+
+.seeAllButton:hover {
+    background-color: #0d21a5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px #0d21a5;
+    color: #f2f1ed;
+}
+
+@media (max-width: 768px) {
+    .postsSection {
+        padding: 4rem 1.5rem;
+    }
+
+    .postCard {
+        padding: 2rem;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+}

@@ -1,0 +1,95 @@
+/* Ortak Button Bileşeni Stilleri */
+
+.button {
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.button:focus {
+    outline: 2px solid #b9c7f8;
+    outline-offset: 2px;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.primary {
+    background-color: #b9c7f8;
+    color: #0d21a5;
+}
+
+.primary:hover:not(:disabled) {
+    background-color: #0d21a5;
+    color: #f2f1ed;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(13, 33, 165, 0.3);
+}
+
+.secondary {
+    background-color: transparent;
+    color: #b9c7f8;
+    border-color: #b9c7f8;
+}
+
+.secondary:hover:not(:disabled) {
+    background-color: #b9c7f8;
+    color: #0d21a5;
+    transform: translateY(-2px);
+}
+
+.outline {
+    background-color: transparent;
+    color: #f2f1ed;
+    border-color: #f2f1ed;
+}
+
+.outline:hover:not(:disabled) {
+    background-color: #f2f1ed;
+    color: #161616;
+}
+
+.small {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+}
+
+.medium {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+}
+
+.large {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .button {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .small {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .large {
+        padding: 0.9rem 2rem;
+        font-size: 1rem;
+    }
+}

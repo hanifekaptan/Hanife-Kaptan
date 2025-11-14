@@ -1,0 +1,192 @@
+/* Navbar Genel Stil */
+.navbar {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #161616;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.75rem 0.5rem;
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        position: sticky;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .navbar::-webkit-scrollbar {
+        height: 4px;
+    }
+
+    .navbar::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .navbar::-webkit-scrollbar-thumb {
+        background: #b9c7f8;
+        border-radius: 2px;
+    }
+
+    .container {
+        flex-wrap: nowrap;
+        gap: 0.5rem;
+        width: max-content;
+        min-width: 100%;
+        justify-content: flex-start;
+        overflow: visible;
+    }
+
+    .navLinks {
+        gap: 0.5rem;
+        font-size: 0.75rem;
+        flex-wrap: nowrap;
+        display: flex;
+    }
+
+    .navLink {
+        font-size: 0.75rem;
+        white-space: nowrap;
+        padding: 0.3rem 0.5rem;
+        display: inline-block;
+        flex-shrink: 0;
+    }
+
+    .navRight {
+        gap: 0.5rem;
+        flex-wrap: nowrap;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .logo {
+        max-width: 40px;
+        max-height: 30px;
+        flex-shrink: 0;
+    }
+
+    .languageSwitcher {
+        display: block;
+        flex-shrink: 0;
+    }
+
+    .globeButton {
+        flex-shrink: 0;
+        padding: 0.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .globeButton svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f2f1ed;
+    text-decoration: none;
+    max-width: 60px;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.navLinks {
+    display: flex;
+    gap: 2rem;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #f2f1ed;
+    font-weight: 500;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #b9c7f8;
+}
+
+.navLink.active {
+    color: #b9c7f8;
+    border-bottom-color: #b9c7f8;
+}
+
+.languageSwitcher {
+    position: relative;
+}
+
+.globeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #f2f1ed;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.globeButton:hover {
+    color: #b9c7f8;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 150%;
+    right: 0;
+    background-color: #161616;
+    color: #f2f1ed;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 1010;
+    width: 120px;
+}
+
+.dropdownMenu button {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #f2f1ed;
+    background-color: #1e1e24;
+}
+
+.dropdownMenu button.activeLang {
+    font-weight: 700;
+    color: #f2f1ed;
+    border-left: 5px solid #b9c7f8;
+}

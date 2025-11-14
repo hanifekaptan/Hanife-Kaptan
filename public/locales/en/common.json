@@ -1,0 +1,60 @@
+{
+    "navbar": {
+        "home": "Home",
+        "projects": "Projects",
+        "blog": "Posts",
+        "contact": "Contact",
+        "logo": "logo.ico"
+    },
+    "footer": {
+        "copyright": "© {{year}} Hanife Kaptan. All rights reserved."
+    },
+    "searchPlaceholder": "Search...",
+    "filterButtonText": "Filter",
+    "githubLinkAriaLabel": "Open GitHub repo in a new tab",
+    "liveDemoLinkAriaLabel": "Open live demo in a new tab",
+    "categories": {
+        "all": "All",
+        "ai": "Artificial Intelligence",
+        "web-development": "Web Development",
+        "full-stack": "Full-Stack"
+    },
+    "tags": {
+        "python": "Python",
+        "fastapi": "FastAPI",
+        "tensorflow": "TensorFlow",
+        "react": "React",
+        "typescript": "TypeScript",
+        "d3js": "D3.js"
+    },
+    "sortBy": {
+        "title": "Sort",
+        "newest": "Newest",
+        "oldest": "Oldest"
+    },
+    "back": "Back",
+    "viewLive": "View Live",
+    "viewSource": "Source Code",
+    "description": "Description",
+    "technologies": "Technologies Used",
+    "features": "Features",
+    "challenges": "Challenges",
+    "lessons": "Lessons Learned",
+    "projectInfo": "Project Details",
+    "category": "Category",
+    "year": "Year",
+    "difficulty": "Difficulty",
+    "difficultyLevels": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+    },
+    "rating": "Rating",
+    "backToBlog": "Back to All Posts",
+    "notFound": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for does not exist or may have been moved.",
+        "backHome": "Go Back Home",
+        "viewProjects": "See Projects"
+    }
+}

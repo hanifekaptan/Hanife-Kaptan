@@ -1,0 +1,32 @@
+.footer {
+  width: 100%;
+  padding: 2rem;
+  background-color: #161616;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 4rem; /* Sayfa içeriği ile arasında boşluk bırakır */
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socialLinks a {
+  color: #f2f1ed;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+  color: #0070f3;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #f2f1ed;
+  margin: 0;
+}

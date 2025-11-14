@@ -1,0 +1,42 @@
+.cta {
+    width: 100%;
+    padding: 5rem 2rem;
+    color: #f2f1ed;
+    text-align: center;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #f2f1ed;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #b9c7f8;
+    color: #0d21a5;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ctaButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
