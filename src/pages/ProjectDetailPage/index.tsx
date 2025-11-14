@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { PROJECTS_DATA } from '../../data/projects.data';
 import type { Project } from '../../types';
@@ -11,7 +11,7 @@ import { getAssetUrl } from '../../utils/imageHelper';
 
 const ProjectDetailPage: React.FC = () => {
     const { projectId } = useParams<{ projectId: string }>();
-    const { t, i18n } = useTranslation(['projects', 'common']);
+    const { t } = useTranslation(['projects', 'common']);
     const navigate = useNavigate();
 
     const project = PROJECTS_DATA.find((p: Project) => p.id === projectId);

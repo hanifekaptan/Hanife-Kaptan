@@ -11,7 +11,7 @@ import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Hanife-Kaptan/">
       <Routes>
         <Route path="/" element={<PageLayout />}>
           <Route index element={<HomePage />} />
